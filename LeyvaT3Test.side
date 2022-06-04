@@ -1,0 +1,217 @@
+{
+  "id": "73bb3de5-897f-47de-bb9b-e24db798957b",
+  "version": "2.0",
+  "name": "LeyvaT3Test",
+  "url": "https://localhost:7075/",
+  "tests": [{
+    "id": "ff1d246d-71e5-464e-88f8-fd002c07933d",
+    "name": "CuentaCorrecta",
+    "commands": [{
+      "id": "0ab1aa2c-1def-4967-8e6d-5fc1d24073da",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86c3ab3c-5c92-4979-8845-09696aad0039",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Cuenta",
+      "targets": [
+        ["linkText=Crear Cuenta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Crear Cuenta')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/Crear')]", "xpath:href"],
+        ["xpath=//main/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crear Cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f53154-9f0c-4ea6-9aaf-d6f29c111700",
+      "comment": "",
+      "command": "type",
+      "target": "id=NombreDueño",
+      "targets": [
+        ["id=NombreDueño", "id"],
+        ["name=NombreDueño", "name"],
+        ["css=#NombreDue\\F1o", "css:finder"],
+        ["xpath=//input[@id='NombreDueño']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Cristian"
+    }, {
+      "id": "8ac45458-ec6f-4077-9ff6-73f8f6ec651b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Direccion",
+      "targets": [
+        ["id=Direccion", "id"],
+        ["name=Direccion", "name"],
+        ["css=#Direccion", "css:finder"],
+        ["xpath=//input[@id='Direccion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Avenida Peru"
+    }, {
+      "id": "c4253bfc-0a8b-407c-8f1d-719b9ba0b069",
+      "comment": "",
+      "command": "type",
+      "target": "id=Telefono",
+      "targets": [
+        ["id=Telefono", "id"],
+        ["name=Telefono", "name"],
+        ["css=#Telefono", "css:finder"],
+        ["xpath=//input[@id='Telefono']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "998778784"
+    }, {
+      "id": "12adc838-12be-4801-a4fa-28a1070fe8ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "pruebas@gmail.com"
+    }, {
+      "id": "f833dcfe-c8ca-4871-ba01-4da75b06ebfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce557826-c29f-4fe4-ae0a-f9ee417b4143",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=CreandoD",
+      "targets": [
+        ["id=CreandoD", "id"],
+        ["css=#CreandoD", "css:finder"],
+        ["xpath=//h2[@id='CreandoD']", "xpath:attributes"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Creando Dueños')]", "xpath:innerText"]
+      ],
+      "value": "Creando Dueños"
+    }]
+  }, {
+    "id": "07d25ee9-1fdb-4d53-b1d0-a0106e0c58fa",
+    "name": "CuentaIncorrecta",
+    "commands": [{
+      "id": "a3f9319a-5f0f-4adb-9e8a-fdf4d093aeef",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0882cee-d676-4779-b3ee-4297ee068804",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Cuenta",
+      "targets": [
+        ["linkText=Crear Cuenta", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Crear Cuenta')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/Crear')]", "xpath:href"],
+        ["xpath=//main/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crear Cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "235b9266-99ec-4c04-8210-85e2cd589682",
+      "comment": "",
+      "command": "type",
+      "target": "id=NombreDueño",
+      "targets": [
+        ["id=NombreDueño", "id"],
+        ["name=NombreDueño", "name"],
+        ["css=#NombreDue\\F1o", "css:finder"],
+        ["xpath=//input[@id='NombreDueño']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Cristian"
+    }, {
+      "id": "3b321a8a-12ac-4de2-96cc-980a423eab8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Direccion",
+      "targets": [
+        ["id=Direccion", "id"],
+        ["name=Direccion", "name"],
+        ["css=#Direccion", "css:finder"],
+        ["xpath=//input[@id='Direccion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Avenida Peru"
+    }, {
+      "id": "5fbd0101-8152-4089-bc16-53e6f46f1f58",
+      "comment": "",
+      "command": "type",
+      "target": "id=Telefono",
+      "targets": [
+        ["id=Telefono", "id"],
+        ["name=Telefono", "name"],
+        ["css=#Telefono", "css:finder"],
+        ["xpath=//input[@id='Telefono']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "998778784"
+    }, {
+      "id": "b11abe82-8ba6-4490-9793-22f1d24d65bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "pruebas@gmail.com"
+    }, {
+      "id": "7b48c3a9-745f-493c-85a5-63430005ca80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e708cc8-0466-4409-a194-49bb62dd0050",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mb-3:nth-child(1) > label",
+      "targets": [
+        ["css=.mb-3:nth-child(1) > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nombre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8936d5a-5c0c-43a7-9a5f-261e18cd8f46",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ff1d246d-71e5-464e-88f8-fd002c07933d"]
+  }],
+  "urls": ["https://localhost:7075/"],
+  "plugins": []
+}

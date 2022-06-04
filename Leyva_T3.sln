@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leyva_T3", "Leyva_T3\Leyva_T3.csproj", "{02659226-3B10-473E-BDE8-DA4FB0857010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leyva_T3Testing", "Leyva_T3Testing\Leyva_T3Testing.csproj", "{4B3F8892-D161-4801-AB1F-ED69A90070C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02659226-3B10-473E-BDE8-DA4FB0857010} = {02659226-3B10-473E-BDE8-DA4FB0857010}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02659226-3B10-473E-BDE8-DA4FB0857010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02659226-3B10-473E-BDE8-DA4FB0857010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02659226-3B10-473E-BDE8-DA4FB0857010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02659226-3B10-473E-BDE8-DA4FB0857010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3F8892-D161-4801-AB1F-ED69A90070C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3F8892-D161-4801-AB1F-ED69A90070C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3F8892-D161-4801-AB1F-ED69A90070C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3F8892-D161-4801-AB1F-ED69A90070C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CEEE8A5-0FBB-445B-AA28-3E3063AE7C9C}
+	EndGlobalSection
+EndGlobal

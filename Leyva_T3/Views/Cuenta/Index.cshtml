@@ -1,0 +1,26 @@
+﻿<h2>Cuentas del Usuario</h2>
+<a class="btn btn-primary" href="/Cuenta/Crear">Crear Cuenta</a>
+<table>
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <td>Direccion</td>
+        <td>Telefono</td>
+        <td>email</td>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.Direccion</td>
+                <td>@item.Telefono</td>
+                <td>@item.email</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+

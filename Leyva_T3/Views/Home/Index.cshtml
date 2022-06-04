@@ -1,0 +1,32 @@
+﻿<div class="container">
+<h2>Dueños</h2>
+<br>
+<a class="btn btn-primary" href="/Home/Crear">Crear Cuenta</a>
+<br>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Nombre </th>
+        <td>Direccion</td>
+        <td>Telefono</td>
+        <td>email</td>
+        <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NombreDueño</td>
+            <td>@item.Direccion</td>
+            <td>@item.Telefono</td>
+            <td>@item.email</td>
+            <td>
+                <a href="/Mascotas?IdCuenta=@item.IdCuenta" class="btn btn-primary">Agregar Mascota</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+</div>

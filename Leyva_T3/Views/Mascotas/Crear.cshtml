@@ -1,0 +1,46 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <form action="/Mascotas/Crear?IdCuenta=@ViewBag.IdCuenta" method="post">
+
+                <div class="mb-3">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" Name="Nombre" id="Nombre" value="@Model.Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="FechaRegistro">Fecha Registro</label>
+                    <input type="text" class="form-control" Name="FechaRegistro" id="FechaRegistro" value="@Model.FechaRegistro">
+                </div>
+
+                <div class="mb-3">
+                    <label for="FechaNacimiento">Fecha Nacimiento</label>
+                    <input type="text" class="form-control" Name="FechaNacimiento" id="FechaNacimiento" value="@Model.FechaNacimiento">
+                </div>
+
+                <div class="mb-3">
+                    <label for="Sexo">Sexo</label>
+                    <input type="text" class="form-control" Name="Sexo" id="Sexo" value="@Model.Sexo">
+                </div>
+
+                <div class="mb-3">
+                    <label for="Raza">Raza</label>
+                    <input type="text" class="form-control" Name="Raza" id="Raza" value="@Model.Raza">
+                </div>
+
+                <div class="mb-3">
+                    <label for="Tamaño">Tamaño</label>
+                    <input type="text" class="form-control" Name="Tamaño" id="Tamaño" value="@Model.Tamaño">
+                </div>
+
+                <div class="mb-3">
+                    <label for="Datos">Datos</label>
+                    <input type="text" class="form-control" Name="Datos" id="Datos" value="@Model.Datos">
+                </div>
+                
+                <br>
+                <button class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+</div>
